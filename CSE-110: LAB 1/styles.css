@@ -5,9 +5,16 @@ p {
     margin-left: 15px;
     margin-right: 15px;
 }
-img[src$=".png"] {
-    max-width: 400px;
+#heading {
+    background-color: rgb(245, 240, 230);
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top */
+    img[src$=".png"] {
+        max-width: 400px;
+    }
 }
+
 #section1 {
     background-color: rgb(245, 240, 230);
     font-size: 28px;
@@ -31,8 +38,6 @@ div {
     margin-right: 0;
 }
 ul {
-    position: sticky;
-    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
