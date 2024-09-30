@@ -31,6 +31,8 @@ div {
     margin-right: 0;
 }
 ul {
+    position: sticky;
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
