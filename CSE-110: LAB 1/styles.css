@@ -73,6 +73,12 @@ li a {
     color:white;
 }
 
+#form {
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    font-size: 28px;
+    color:white;
+}
+
 @media screen and (max-width: 800px) {
     ul {
         display: none;
